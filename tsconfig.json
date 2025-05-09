@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@ozmap/ozmap-sdk": ["./mocks/ozmap-sdk"],
+      "@ozmap/ozmap-sdk-original": ["../node_modules/@ozmap/ozmap-sdk"]
+    }
+  },
+  "include": ["src"]
+}
